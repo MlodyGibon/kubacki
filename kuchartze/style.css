@@ -1,0 +1,98 @@
+body {
+    background-image: url('tloglowne.jpg');
+    background-size: cover;
+    background-color:rgb(137, 146, 165);
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 50px;
+    color: #333;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  #img4 {
+    border: 2px solid black;          
+  }
+
+  #zdjsek2 {
+    height: 300px;
+    width: 1800px;
+  }
+
+  #lewa {
+    float: left;
+    width: 50%
+  }
+  #prawa {
+    float: right;
+    width: 50%
+  }
+
+  #kwadrat img {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+
+.image-grid {
+              display: flex;
+              flex-wrap: wrap;
+            }
+          
+.image-grid img {
+              width: 25%;
+            }
+
+
+.image-grid-text {
+    text-align: center;
+  }
